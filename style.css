@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background: black;
+
+  /* Prevent any interaction */
+  pointer-events: none;
+}
+
+#video-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 177.77vh; /* keeps 16:9 ratio */
+  height: 100vh;
+  transform: translate(-50%, -50%);
+}
+
+#yt-player {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
